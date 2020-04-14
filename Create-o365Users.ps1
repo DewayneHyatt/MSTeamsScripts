@@ -6,7 +6,7 @@ $msolcreds = (Get-Credential)
 Function Send-Email {
 
 $enc  = New-Object System.Text.utf8encoding
-$Subject = "Good News E-Mail Account Created"
+$Subject = "E-Mail Account Created"
 $images = @{
     image1 = 'C:\images\GNC_Logo.gif'
 }
