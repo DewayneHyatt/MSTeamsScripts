@@ -1,3 +1,5 @@
+## Requires custom send-mailmessage function available here: https://gallery.technet.microsoft.com/scriptcenter/Send-MailMessage-3a920a6d
+
 . .\Send-MailMessage.ps1
 
 $mailcred = (Get-Credential)
